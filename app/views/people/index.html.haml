@@ -1,0 +1,67 @@
+%table
+  %tr
+    %th
+      ID
+    %th
+      Home ID
+    %th
+      P01
+    %th
+      P02
+    %th
+      P03
+    %th
+      P05
+    %th
+      P06
+    %th
+      P07
+    %th
+      P12
+    %th
+      Edadgru
+    %th
+      Edadqui
+    %th
+      P08
+    %th
+      P09
+    %th
+      P10
+    %th
+      Condact
+  - @people.each do |person|
+    %tr
+      %td
+        = person.person_id
+      %td
+        = person.home_id
+      %td
+        = person.p01
+      %td
+        = person.p02
+      %td
+        = person.p03
+      %td
+        = person.p05
+      %td
+        = person.p06
+      %td
+        = person.p07
+      %td
+        = person.p12
+      %td
+        = person.edadgru
+      %td
+        = person.edadqui
+      %td
+        = person.p08
+      %td
+        = person.p09
+      %td
+        = person.p10
+      %td
+        = person.condact
+
+
+
